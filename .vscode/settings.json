@@ -6,22 +6,22 @@
     "go.inferGopath": false,
     "go.useLanguageServer": true,
     "go.lintTool": "revive",
-    //////////////////////// this config doesn't work:
+    //////////////////////// this doesn't work:
     "go.lintFlags": [
         "-config",
         "${workspaceFolder}/revive.toml"
     ],
-    //////////////////////// this config doesn't work:
+    //////////////////////// this doesn't work:
     // "go.lintFlags": [
     //     "-config",
     //     "revive.toml"
     // ],
-    //////////////////////// this config doesn't work:
+    //////////////////////// this doesn't work:
     // "go.lintFlags": [
     //     "-config",
     //     "./revive.toml"
     // ],
-    //////////////////////// this config does work:
+    //////////////////////// this does work, but it can't fit for all the team members:
     // "go.lintFlags": [
     //     "-config",
     //     "/Users/ocavue/code/play/revive_vscode_issue/revive.toml"

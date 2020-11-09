@@ -1,0 +1,41 @@
+# https://github.com/mgechev/revive/
+ignoreGeneratedHeader = false
+severity = "warning"
+confidence = 0.8
+errorCode = 0
+warningCode = 0
+
+[rule.blank-imports]
+
+[rule.context-as-argument]
+
+[rule.context-keys-type]
+
+[rule.dot-imports]
+
+[rule.error-return]
+
+[rule.error-strings]
+
+[rule.error-naming]
+
+[rule.var-naming]
+arguments = [["ID", "API"], []]
+
+[rule.package-comments]
+
+[rule.range]
+
+[rule.receiver-naming]
+
+[rule.time-naming]
+
+[rule.unexported-return]
+
+[rule.errorf]
+
+[rule.empty-block]
+
+[rule.unreachable-code]
+
+[rule.redefines-builtin-id]

@@ -1,0 +1,29 @@
+{
+    "editor.formatOnSave": true,
+    "go.generateTestsFlags": [
+        "-coverpkg=all"
+    ],
+    "go.inferGopath": false,
+    "go.useLanguageServer": true,
+    "go.lintTool": "revive",
+    //////////////////////// this config doesn't work:
+    "go.lintFlags": [
+        "-config",
+        "${workspaceFolder}/revive.toml"
+    ],
+    //////////////////////// this config doesn't work:
+    // "go.lintFlags": [
+    //     "-config",
+    //     "revive.toml"
+    // ],
+    //////////////////////// this config doesn't work:
+    // "go.lintFlags": [
+    //     "-config",
+    //     "./revive.toml"
+    // ],
+    //////////////////////// this config does work:
+    // "go.lintFlags": [
+    //     "-config",
+    //     "/Users/ocavue/code/play/revive_vscode_issue/revive.toml"
+    // ],
+}
